@@ -1,0 +1,11 @@
+.navbar {
+  background-color: var(--grey-1);
+}
+
+.nav-link, .logo, .navbar a:hover {
+  color: var(--grey-3);
+}
+
+.navbar a:hover {
+  opacity: 80%;
+}
