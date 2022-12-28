@@ -1,0 +1,11 @@
+:root {
+  --brand-1: #583E72;
+  --brand-2: #FF8D70;
+  --grey-1: #1A1323;
+  --grey-2: #F5F5F5;
+  --grey-3: #FFF;
+}
+
+body {
+  background-color: var(--grey-2);
+}
