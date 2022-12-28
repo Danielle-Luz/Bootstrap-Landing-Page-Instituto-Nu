@@ -1,3 +1,8 @@
 .quem-somos img {
   width: 200px;
 }
+
+.quem-somos p {
+  max-width: 500px;
+  width: 100%;
+}
