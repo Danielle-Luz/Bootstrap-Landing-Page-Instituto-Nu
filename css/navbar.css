@@ -1,0 +1,7 @@
+.navbar {
+  background-color: var(--grey-1);
+}
+
+.nav-link, .navbar__logo {
+  color: var(--grey-3);
+}
