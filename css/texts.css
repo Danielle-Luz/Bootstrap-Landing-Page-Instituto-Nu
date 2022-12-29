@@ -14,3 +14,9 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+.title-2 {
+  color: var(--brand-1);
+  font-size: 20px;
+  font-weight: 600;
+}

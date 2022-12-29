@@ -3,3 +3,8 @@
   object-fit: cover;
   width: 150px;
 }
+
+.nosso-time p {
+  max-width: 300px;
+  width: 100%;
+}
