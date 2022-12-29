@@ -1,12 +1,10 @@
 .banner {
   max-width: 1044px;
-  margin-top: 20px;
   height: 452px;
   width: 100%;
 }
 
-.banner div {
-  border-radius: 8px;
+.banner div, .banner-background {
   height: 100%;
   width: 100%;
 }
@@ -23,9 +21,39 @@
   background-color: var(--brand-2);
 }
 
+.carousel-item > div {
+  position: relative;
+}
+
+.banner-background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 10%;
+  position: absolute;
+}
+
+#banner-1 {
+  background-image: url("../assets/palmeira.webp");
+}
+
+#banner-2 {
+  background-image: url("../assets/flores.webp");
+}
+
+#banner-3 {
+  background-image: url("../assets/samambaia.webp");
+}
+
+#banner-4 {
+  background-image: url("../assets/cactos.webp");
+}
+
 .banner-text {
   color: var(--grey-3);
   max-width: 600px;
   padding: 0 20px;
+  position: absolute;
   width: 100%;
+  z-index: 100;
 }
