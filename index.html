@@ -23,6 +23,7 @@
         <link href="css/texts.css" rel="stylesheet" />
         <link href="css/quemSomos.css" rel="stylesheet" />
         <link href="css/nossoTime.css" rel="stylesheet" />
+        <link href="css/card.css" rel="stylesheet" />
     </head>
     <body>
         <nav class="navbar navbar-expand-md sticky-top">
@@ -34,7 +35,7 @@
                     aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse"
+                <article class="collapse navbar-collapse"
                     id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link link active"
@@ -46,7 +47,7 @@
                         <li class="nav-item"><a class="nav-link link"
                                 href="#produtos">Produtos</a></li>
                     </ul>
-                </div>
+                </article>
             </div>
         </nav>
         <div class="container px-4 px-lg-5">
@@ -137,47 +138,144 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <article class="quem-somos rounded" id="quemSomos">
-                <div class="align-items-center d-flex flex-md-row flex-column-reverse gap-3 justify-content-md-around text-center text-md-start my-5 p-4">
+            <article class="quem-somos rounded my-5" id="quemSomos">
+                <div class="align-items-center d-flex flex-md-row
+                    flex-column-reverse gap-3 justify-content-md-around
+                    text-center text-md-start my-5 p-4">
                     <article>
                         <h2 class="title-1">Quem somos</h2>
                         <p>
                             Somos uma loja online de plantas com o objetivo de
-                            trazer um pouco da natureza para a sua casa. Acreditamos
+                            trazer um pouco da natureza para a sua casa.
+                            Acreditamos
                             que as plantas são mais do que apenas elementos
-                            decorativos, elas também trazem muitos benefícios para a
-                            saúde e ajudam a tornar o mundo um lugar mais verde e
+                            decorativos, elas também trazem muitos benefícios
+                            para a
+                            saúde e ajudam a tornar o mundo um lugar mais verde
+                            e
                             sustentável.
                         </p>
                     </article>
-                    <img class="rounded-circle" src="assets/meditation.jpg" alt="ilustração de uma
+                    <img class="rounded-circle" src="assets/meditation.jpg"
+                        alt="ilustração de uma
                         mulher negra sentada com as pernas cruzadas, meditando"
                         />
                 </div>
             </article>
-            <section class="row gx-4 gx-lg-5 nosso-time text-center">
-                <article class="col-md-4 mb-5 d-flex align-items-center justify-content-center flex-column gap-3">
-                    <img class="rounded-circle" src="assets/lúcia-foto.jpg" alt="">
+            <section class="row gx-4 gx-lg-5 nosso-time text-center my-5">
+                <article class="col-md-4 mb-5 d-flex align-items-center
+                    justify-content-center flex-column gap-3">
+                    <img class="rounded-circle" src="assets/lúcia-foto.jpg"
+                        alt="">
                     <h3 class="title-2">Lúcia Moraes</h3>
                     <p>
-                        Engenheira que adora cuidar de plantas e dar dicas de cuidado.
+                        Engenheira que adora cuidar de plantas e dar dicas de
+                        cuidado.
                     </p>
                 </article>
-                <article class="col-md-4 mb-5 d-flex align-items-center justify-content-center flex-column gap-3">
-                    <img class="rounded-circle" src="assets/martina-foto.jpg" alt="">
+                <article class="col-md-4 mb-5 d-flex align-items-center
+                    justify-content-center flex-column gap-3">
+                    <img class="rounded-circle" src="assets/martina-foto.jpg"
+                        alt="">
                     <h3 class="title-2">Martina Gomez</h3>
                     <p>
-                        Arquiteta especializada em projetos de decoração com plantas.
+                        Arquiteta especializada em projetos de decoração com
+                        plantas.
                     </p>
                 </article>
-                <article class="col-md-4 mb-5 d-flex align-items-center justify-content-center flex-column gap-3">
-                    <img class="rounded-circle" src="assets/rebeca-foto.jpg" alt="">
+                <article class="col-md-4 mb-5 d-flex align-items-center
+                    justify-content-center flex-column gap-3">
+                    <img class="rounded-circle" src="assets/rebeca-foto.jpg"
+                        alt="">
                     <h3 class="title-2">Rebeca Souza</h3>
                     <p>
                         Expert em marketing e criação de campanhas de sucesso.
                     </p>
                 </article>
             </section>
+            <div class="my-5">
+                <h2 class="title-1 mb-3 text-center">Produtos</h2>
+                <section class="row row-cols-1 row-cols-md-3 g-4">
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-1.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Horta Vertical Gourmet</h3>
+                                <span class="text-2">R$ 105,16</span>
+                                <p class="text-1">
+                                    A treliça autoirrigável é compacta e perfeita para qualquer espaço.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-2.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Kit Horta Vertical Green</h3>
+                                <span class="text-2">R$ 90,05</span>
+                                <p class="text-1">
+                                    Tenha ervas frescas e saudáveis sempre à mão.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-3.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Kit Horta Vertical 8 Vasos</h3>
+                                <span class="text-2">R$ 93,10</span>
+                                <p class="text-1">
+                                    Transforme qualquer espaço em um jardim de ervas frescas e saudáveis
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-4.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Salsa</h3>
+                                <span class="text-2">R$ 10,04</span>
+                                <p class="text-1">
+                                    A salsa é uma planta herbácea perene muito utilizada na culinária para temperar pratos.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-5.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Hortelã</h3>
+                                <span class="text-2">R$ 15,20</span>
+                                <p class="text-1">
+                                    A hortelã é uma planta herbácea perene muito utilizada na culinária e na aromaterapia .
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="card">
+                            <img src="assets/planta-6.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="title-3">Antúrio</h3>
+                                <span class="text-2">R$ 24,16</span>
+                                <p class="text-1">
+                                    O antúrio é uma planta de florescimento que traz um toque tropical a qualquer ambiente.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
         </div>
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center
